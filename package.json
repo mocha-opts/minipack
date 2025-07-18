@@ -1,0 +1,15 @@
+{
+  "name": "minipack-complete",
+  "version": "1.0.0",
+  "main": "minipack.js",
+  "scripts": {
+    "build": "node minipack.js",
+    "test-tapable": "node test-tapable.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.21.8",
+    "@babel/traverse": "^7.21.5",
+    "@babel/generator": "^7.21.5",
+    "@babel/types": "^7.21.5"
+  }
+}
